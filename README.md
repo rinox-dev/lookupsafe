@@ -13,7 +13,7 @@ The Astro frontend is in [`web/`](web/README.md), with desktop/mobile layouts, b
 - Ingredient splitting, a limited English/Spanish allergen mention catalog, and personal allergen preferences.
 - Private scan history with pagination, search within loaded history, favorites, details, deletion, and PNG summary sharing.
 - Encrypted session persistence through Android Keystore, token refresh, sign-out, and profile/history deletion.
-- D1 migrations, API tests, Gradle wrapper, and CI build checks.
+- D1 migrations, API tests, Gradle wrapper, and CI checks for web, backend, plus an Android 13 emulator UI smoke test and APK artifact.
 
 The mockup's numerical scores and risk classifications were illustrative. The implementation does **not** invent health scores or certify safety: all ingredients remain unreviewed, and results identify text mentions only. It can match negated phrases such as “sin leche”; the UI explains this limitation. Sources are general context, not ingredient-specific assessments. There is no barcode product database, Google/Apple OAuth, anonymous mode, or password-recovery flow in this first version.
 
