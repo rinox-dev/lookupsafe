@@ -1,0 +1,12 @@
+.git
+.tooling
+**/node_modules
+**/build
+**/.wrangler
+**/dist
+**/.astro
+.env
+.env.*
+backend/.dev.vars
+android/lookupsafe.properties
+android/local.properties

@@ -38,6 +38,8 @@ npm run dev
 
 The local API runs at `http://localhost:8787`. `/health` is public; every `/v1/*` request requires `Authorization: Bearer <Supabase access token>`. The server verifies the token with Supabase Auth and scopes every database operation to that returned user ID. There is no development auth bypass. Local scans live in Wrangler's local D1 storage; even local sign-in needs the configured Supabase project and network access.
 
+Docker option: stop any host `wrangler dev` process already using port 8787, then run `docker compose up --build -d`. The container applies D1 migrations on startup and keeps local state in the `lookupsafe-wrangler` volume. Create `backend/.dev.vars` from its example and add Supabase settings when available; the container publishes port 8787 on the host/LAN for debug builds.
+
 ## 3. Android
 
 Open `android/` in Android Studio. Install Android SDK 35 and use JDK 17. The wrapper downloads verified Gradle 8.11.1.
@@ -55,6 +57,8 @@ In this workspace, `./scripts/build-android.sh` also uses the locally installed 
 Install `android/app/build/outputs/apk/debug/app-debug.apk`, or use Android Studio's Run action. For a physical device, use a reachable development host address or the deployed Worker HTTPS URL. With USB, `adb reverse tcp:8787 tcp:8787` allows `API_BASE_URL=http://127.0.0.1:8787`. Rebuild after editing properties. These values may also be supplied as environment variables.
 
 Without Supabase settings, the app opens with a configuration message and disabled login. The public Supabase key is intended for inclusion in clients. `.dev.vars`, `lookupsafe.properties`, signing keys, generated builds, and local tooling are git-ignored.
+
+**Pending in this workspace:** Supabase project URL and publishable/anon key have not been supplied. Add them to `backend/.dev.vars` and `android/lookupsafe.properties`, then rebuild the APK to enable sign-in and authenticated API features.
 
 HTTP is allowed only in debug builds. Use an HTTPS API URL for release builds. Configure your own Android signing key for release; none is generated or embedded here.
 
