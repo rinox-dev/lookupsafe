@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900"><style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;}</style>
+    <rect width="1440" height="900" fill="#F5F7FA"/>
+    <rect x="0" y="0" width="240" height="900" fill="#FFFFFF"/>
+    <line x1="240" y1="0" x2="240" y2="900" stroke="#E3E7EC"/>
+    <rect x="24" y="28" width="34" height="34" rx="10" fill="#1F8A70"/>
+    <text x="41" y="50" text-anchor="middle" font-size="14" font-weight="800" fill="#fff">LS</text>
+    <text x="66" y="50" font-size="18" font-weight="800" fill="#1A1F24">lookupsafe</text>
+    <rect x="16" y="124" width="208" height="44" rx="10" fill="#E6F4EF"/><g transform="translate(32,134) scale(0.8333333333333334)"><path d="M3 10.5 12 3l9 7.5" fill="none" stroke="#146A55" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 9.5V20h14V9.5" fill="none" stroke="#146A55" stroke-width="1.8" stroke-linejoin="round"/></g><text x="66" y="149" font-size="14" font-weight="600" fill="#146A55">Inicio</text><g transform="translate(32,186) scale(0.8333333333333334)"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" fill="none" stroke="#6B7480" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.5" fill="none" stroke="#6B7480" stroke-width="1.8"/></g><text x="66" y="201" font-size="14" font-weight="600" fill="#6B7480">Escanear</text><g transform="translate(32,238) scale(0.8333333333333334)"><circle cx="12" cy="12" r="9" fill="none" stroke="#6B7480" stroke-width="1.8"/><path d="M12 7v5l3 2" fill="none" stroke="#6B7480" stroke-width="1.8" stroke-linecap="round"/></g><text x="66" y="253" font-size="14" font-weight="600" fill="#6B7480">Historial</text><g transform="translate(32,290) scale(0.8333333333333334)"><rect x="4" y="4" width="7" height="7" rx="1.5" fill="none" stroke="#6B7480" stroke-width="1.8"/><rect x="13" y="4" width="7" height="7" rx="1.5" fill="none" stroke="#6B7480" stroke-width="1.8"/><rect x="4" y="13" width="7" height="7" rx="1.5" fill="none" stroke="#6B7480" stroke-width="1.8"/><rect x="13" y="13" width="7" height="7" rx="1.5" fill="none" stroke="#6B7480" stroke-width="1.8"/></g><text x="66" y="305" font-size="14" font-weight="600" fill="#6B7480">Infografías</text><g transform="translate(32,342) scale(0.8333333333333334)"><circle cx="12" cy="8" r="4" fill="none" stroke="#6B7480" stroke-width="1.8"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6" fill="none" stroke="#6B7480" stroke-width="1.8" stroke-linecap="round"/></g><text x="66" y="357" font-size="14" font-weight="600" fill="#6B7480">Perfil</text>
+    <circle cx="40" cy="856" r="18" fill="#DDE4EA"/>
+    <text x="40" y="861" text-anchor="middle" font-size="13" font-weight="700" fill="#4A5560">A</text>
+    <text x="68" y="854" font-size="13" font-weight="700" fill="#1A1F24">Ana García</text>
+    <text x="68" y="870" font-size="11" fill="#6B7480">Cuenta personal</text>
+
+    <text x="280" y="56" font-size="24" font-weight="800" fill="#1A1F24">Análisis de producto</text>
+    <text x="280" y="78" font-size="13" fill="#6B7480">Galletas Choco Crunch · Escaneado hace 2 h</text>
+    <rect x="1080" y="32" width="220" height="40" rx="10" fill="#FFFFFF" stroke="#E3E7EC"/>
+    <g transform="translate(1094,42) scale(0.75)"><circle cx="11" cy="11" r="6" fill="none" stroke="#6B7480" stroke-width="1.8"/><path d="m20 20-4-4" fill="none" stroke="#6B7480" stroke-width="1.8" stroke-linecap="round"/></g>
+    <text x="1120" y="57" font-size="12" fill="#6B7480">Buscar productos…</text>
+    <g><rect x="1280" y="32" width="140" height="40" rx="14" fill="#1F8A70" stroke="none" stroke-width="1"/><text x="1350.0" y="57.0" text-anchor="middle" font-size="13" font-weight="600" fill="#fff">Escanear producto</text></g>
+
+    <rect x="280" y="108" width="1120" height="140" rx="16" fill="#FFFFFF" stroke="#E3E7EC"/>
+    <rect x="296" y="124" width="108" height="108" rx="14" fill="#E8EEF3"/>
+    <g transform="translate(336,164) scale(1.3333333333333333)"><path d="M12 3 3 8v8l9 5 9-5V8z" fill="none" stroke="#6B7480" stroke-width="1.8" stroke-linejoin="round"/><path d="M3 8l9 5 9-5M12 13v8" fill="none" stroke="#6B7480" stroke-width="1.8" stroke-linejoin="round"/></g>
+    <text x="424" y="160" font-size="22" font-weight="800" fill="#1A1F24">Galletas Choco Crunch</text>
+    <text x="424" y="186" font-size="13" fill="#6B7480">12 ingredientes analizados · Categoría: Snacks</text>
+    <rect x="424" y="206" width="90" height="26" rx="8" fill="#FCE9E9"/>
+    <text x="469" y="223" text-anchor="middle" font-size="11" font-weight="700" fill="#A32B2B">2 riesgos</text>
+    <rect x="522" y="206" width="90" height="26" rx="8" fill="#FEF6E0"/>
+    <text x="567" y="223" text-anchor="middle" font-size="11" font-weight="700" fill="#8A6100">2 limitada</text>
+    <rect x="620" y="206" width="100" height="26" rx="8" fill="#E6F4EF"/>
+    <text x="670" y="223" text-anchor="middle" font-size="11" font-weight="700" fill="#146A55">8 sin evid.</text>
+
+    <text x="280" y="316" font-size="16" font-weight="800" fill="#1A1F24">Ingredientes detectados</text>
+    <text x="440" y="316" font-size="12" fill="#6B7480">· 12 en total</text>
+    <g><rect x="320" y="340" width="296" height="54" rx="12" fill="#FFFFFF" stroke="#E3E7EC"/><text x="336" y="363" font-size="13" font-weight="700" fill="#1A1F24">Harina de trigo</text><text x="336" y="380" font-size="11" fill="#6B7480">Base</text><g><rect x="530" y="357" width="101.89999999999999" height="20" rx="6" fill="#E6F4EF"/><text x="580.95" y="371" text-anchor="middle" font-size="11" font-weight="700" fill="#146A55">Sin evidencia</text></g></g><g><rect x="630" y="340" width="296" height="54" rx="12" fill="#FFFFFF" stroke="#E3E7EC"/><text x="646" y="363" font-size="13" font-weight="700" fill="#1A1F24">Azúcar</text><text x="646" y="380" font-size="11" fill="#6B7480">Endulzante</text><g><rect x="840" y="357" width="108.2" height="20" rx="6" fill="#FEF6E0"/><text x="894.1" y="371" text-anchor="middle" font-size="11" font-weight="700" fill="#8A6100">Evid. limitada</text></g></g><g><rect x="320" y="404" width="296" height="54" rx="12" fill="#FFFFFF" stroke="#E3E7EC"/><text x="336" y="427" font-size="13" font-weight="700" fill="#1A1F24">Aceite de palma</text><text x="336" y="444" font-size="11" fill="#6B7480">Grasa</text><g><rect x="530" y="421" width="108.2" height="20" rx="6" fill="#FEF6E0"/><text x="584.1" y="435" text-anchor="middle" font-size="11" font-weight="700" fill="#8A6100">Evid. limitada</text></g></g><g><rect x="630" y="404" width="296" height="54" rx="12" fill="#FFFFFF" stroke="#E3E7EC"/><text x="646" y="427" font-size="13" font-weight="700" fill="#1A1F24">TBHQ (E319)</text><text x="646" y="444" font-size="11" fill="#6B7480">Antioxidante</text><g><rect x="840" y="421" width="108.2" height="20" rx="6" fill="#FCE9E9"/><text x="894.1" y="435" text-anchor="middle" font-size="11" font-weight="700" fill="#A32B2B">Posible riesgo</text></g></g><g><rect x="320" y="468" width="296" height="54" rx="12" fill="#FFFFFF" stroke="#E3E7EC"/><text x="336" y="491" font-size="13" font-weight="700" fill="#1A1F24">Colorante caramelo IV</text><text x="336" y="508" font-size="11" fill="#6B7480">Colorante</text><g><rect x="530" y="485" width="108.2" height="20" rx="6" fill="#FCE9E9"/><text x="584.1" y="499" text-anchor="middle" font-size="11" font-weight="700" fill="#A32B2B">Posible riesgo</text></g></g><g><rect x="630" y="468" width="296" height="54" rx="12" fill="#FFFFFF" stroke="#E3E7EC"/><text x="646" y="491" font-size="13" font-weight="700" fill="#1A1F24">Lecitina de soya</text><text x="646" y="508" font-size="11" fill="#6B7480">Emulsionante</text><g><rect x="840" y="485" width="101.89999999999999" height="20" rx="6" fill="#E6F4EF"/><text x="890.95" y="499" text-anchor="middle" font-size="11" font-weight="700" fill="#146A55">Sin evidencia</text></g></g>
+
+    <rect x="960" y="108" width="440" height="720" rx="16" fill="#FFFFFF" stroke="#E3E7EC"/>
+    <text x="984" y="146" font-size="16" font-weight="800" fill="#1A1F24">Resumen</text>
+    <text x="984" y="168" font-size="12" fill="#6B7480">Recomendación final</text>
+    <g transform="translate(1150,420)">
+      <circle r="60" fill="none" stroke="#EAEEF2" stroke-width="14"/>
+      <circle r="60" fill="none" stroke="#F2A900" stroke-width="14" stroke-linecap="round" stroke-dasharray="377.0" stroke-dashoffset="158.3" transform="rotate(-90)"/>
+    </g>
+    <text x="1150" y="426" text-anchor="middle" font-size="42" font-weight="800" fill="#1A1F24">58</text>
+    <text x="1150" y="446" text-anchor="middle" font-size="12" fill="#6B7480">de 100</text>
+    <rect x="984" y="510" width="392" height="52" rx="14" fill="#FEF6E0" stroke="#8A6100" stroke-opacity=".3"/>
+    <circle cx="1004" cy="536" r="6" fill="#F2A900"/><circle cx="1004" cy="536" r="10" fill="#F2A900" opacity=".2"/>
+    <text x="1024" y="532" font-size="14" font-weight="700" fill="#8A6100">Consumir con moderación</text>
+    <text x="1024" y="548" font-size="10.5" fill="#8A6100">Según la evidencia disponible</text>
+    <circle cx="990" cy="556" r="9" fill="#FEF6E0"/><g transform="translate(983,549) scale(0.5833333333333334)"><path d="m5 13 4 4L19 7" fill="none" stroke="#8A6100" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g><text x="1006" y="561" font-size="11.5" fill="#1A1F24">2 ingredientes con posible riesgo detectados.</text><circle cx="990" cy="586" r="9" fill="#FEF6E0"/><g transform="translate(983,579) scale(0.5833333333333334)"><path d="m5 13 4 4L19 7" fill="none" stroke="#8A6100" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g><text x="1006" y="591" font-size="11.5" fill="#1A1F24">Azúcar y aceite de palma con evidencia limitada.</text><circle cx="990" cy="616" r="9" fill="#FEF6E0"/><g transform="translate(983,609) scale(0.5833333333333334)"><path d="m5 13 4 4L19 7" fill="none" stroke="#8A6100" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g><text x="1006" y="621" font-size="11.5" fill="#1A1F24">8 ingredientes sin evidencia relevante.</text>
+    <rect x="984" y="650" width="392" height="56" rx="10" fill="#F1F4F7"/>
+    <text x="1000" y="670" font-size="11" fill="#6B7480">Esta información no sustituye consejo médico.</text>
+    <text x="1000" y="688" font-size="11" fill="#6B7480">Basada en fuentes disponibles a la fecha.</text>
+    <g><rect x="984" y="722" width="392" height="50" rx="14" fill="#1F8A70" stroke="none" stroke-width="1"/><text x="1180.0" y="752.0" text-anchor="middle" font-size="14.5" font-weight="600" fill="#fff">Generar infografía</text></g>
+    <g><rect x="984" y="782" width="392" height="50" rx="14" fill="#FFFFFF" stroke="#E3E7EC" stroke-width="1"/><text x="1180.0" y="812.0" text-anchor="middle" font-size="14.5" font-weight="600" fill="#1A1F24">Ver fuentes</text></g>
+    </svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844"><style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;}</style>
+    <rect width="390" height="844" fill="#0B0F14"/><g fill="#E8ECF1">
+      <text x="26" y="30" font-size="13" font-weight="600">9:41</text>
+      <g transform="translate(324,22)">
+        <rect y="5" width="3" height="5" rx="1"/><rect x="4.5" y="2.5" width="3" height="7.5" rx="1"/>
+        <rect x="9" width="3" height="10" rx="1"/><rect x="13.5" y="-2" width="3" height="12" rx="1" opacity=".35"/>
+        <path d="M23 7.5a5 5 0 0 1 6 0l-3 3z"/>
+        <rect x="50" width="14" height="8" rx="2" fill="none" stroke="#E8ECF1" stroke-width="1.2" opacity=".5"/>
+        <rect x="51.5" y="1.5" width="9" height="5" rx="1"/>
+      </g></g><g><rect x="22" y="52" width="36" height="36" rx="10" fill="#151C26" stroke="#2A3440"/><g transform="translate(32,60) scale(0.75)"><path d="m15 18-6-6 6-6" fill="none" stroke="#E8ECF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></g>
+    <text x="195.0" y="75" text-anchor="middle" font-size="16" font-weight="800" fill="#E8ECF1">Resumen</text>
+    <g transform="translate(195,180)"><circle r="64" fill="none" stroke="#1A212C" stroke-width="14"/><circle r="64" fill="none" stroke="#F5B831" stroke-width="14" stroke-linecap="round" stroke-dasharray="402.1" stroke-dashoffset="168.9" transform="rotate(-90)"/></g>
+    <text x="195" y="184" text-anchor="middle" font-size="38" font-weight="800" fill="#E8ECF1">58</text>
+    <text x="195" y="200" text-anchor="middle" font-size="11" fill="#8B96A3">de 100</text>
+    <rect x="22" y="272" width="346" height="52" rx="14" fill="#2A2210" stroke="#F5D98A" stroke-opacity=".3"/>
+    <circle cx="40" cy="298" r="6" fill="#F5B831"/><circle cx="40" cy="298" r="10" fill="#F5B831" opacity=".2"/>
+    <text x="58" y="294" font-size="14" font-weight="700" fill="#F5D98A">Consumir con moderación</text>
+    <text x="58" y="310" font-size="10.5" fill="#F5D98A">Según la evidencia disponible</text>
+    <circle cx="31" cy="347" r="9" fill="#2A2210"/><g transform="translate(24,340) scale(0.5833333333333334)"><path d="m5 13 4 4L19 7" fill="none" stroke="#F5D98A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g><text x="46" y="351" font-size="12" fill="#E8ECF1">2 ingredientes con posible riesgo detectados.</text><circle cx="31" cy="373" r="9" fill="#2A2210"/><g transform="translate(24,366) scale(0.5833333333333334)"><path d="m5 13 4 4L19 7" fill="none" stroke="#F5D98A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g><text x="46" y="377" font-size="12" fill="#E8ECF1">Azúcar y aceite de palma con evidencia limitada.</text><circle cx="31" cy="399" r="9" fill="#2A2210"/><g transform="translate(24,392) scale(0.5833333333333334)"><path d="m5 13 4 4L19 7" fill="none" stroke="#F5D98A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g><text x="46" y="403" font-size="12" fill="#E8ECF1">8 ingredientes sin evidencia relevante.</text><circle cx="31" cy="425" r="9" fill="#2A2210"/><g transform="translate(24,418) scale(0.5833333333333334)"><path d="m5 13 4 4L19 7" fill="none" stroke="#F5D98A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g><text x="46" y="429" font-size="12" fill="#E8ECF1">Revisa las fuentes antes de decidir.</text><g><rect x="22" y="480" width="89.3" height="20" rx="6" fill="#2C1515"/><text x="66.65" y="494" text-anchor="middle" font-size="11" font-weight="700" fill="#F5A3A3">TBHQ (E319)</text></g><g><rect x="152" y="480" width="152.29999999999998" height="20" rx="6" fill="#2C1515"/><text x="228.14999999999998" y="494" text-anchor="middle" font-size="11" font-weight="700" fill="#F5A3A3">Colorante caramelo IV</text></g><g><rect x="22" y="506" width="60" height="20" rx="6" fill="#2A2210"/><text x="52.0" y="520" text-anchor="middle" font-size="11" font-weight="700" fill="#F5D98A">Azúcar</text></g><g><rect x="152" y="506" width="114.5" height="20" rx="6" fill="#2A2210"/><text x="209.25" y="520" text-anchor="middle" font-size="11" font-weight="700" fill="#F5D98A">Aceite de palma</text></g>
+    <rect x="22" y="548" width="346" height="42" rx="10" fill="#1A212C"/>
+    <text x="34" y="566" font-size="10" fill="#8B96A3">Esta información no sustituye consejo médico.</text>
+    <text x="34" y="580" font-size="10" fill="#8B96A3">Basada en fuentes disponibles a la fecha.</text>
+    <g><rect x="22" y="606" width="346" height="50" rx="14" fill="#2DBE9A" stroke="none" stroke-width="1"/><text x="195.0" y="636.0" text-anchor="middle" font-size="14.5" font-weight="600" fill="#fff">Generar infografía</text></g>
+    <g><rect x="22" y="664" width="346" height="50" rx="14" fill="#151C26" stroke="#2A3440" stroke-width="1"/><text x="195.0" y="694.0" text-anchor="middle" font-size="14.5" font-weight="600" fill="#E8ECF1">Guardar resultado</text></g>
+    <g><rect x="22" y="722" width="346" height="32" rx="14" fill="none" stroke="none" stroke-width="1"/><text x="195.0" y="743.0" text-anchor="middle" font-size="13" font-weight="600" fill="#2DBE9A">Ver fuentes</text></g>
+    </svg>

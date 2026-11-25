@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844"><style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;}</style>
+    <rect width="390" height="844" fill="#0B0F14"/><g fill="#E8ECF1">
+      <text x="26" y="30" font-size="13" font-weight="600">9:41</text>
+      <g transform="translate(324,22)">
+        <rect y="5" width="3" height="5" rx="1"/><rect x="4.5" y="2.5" width="3" height="7.5" rx="1"/>
+        <rect x="9" width="3" height="10" rx="1"/><rect x="13.5" y="-2" width="3" height="12" rx="1" opacity=".35"/>
+        <path d="M23 7.5a5 5 0 0 1 6 0l-3 3z"/>
+        <rect x="50" width="14" height="8" rx="2" fill="none" stroke="#E8ECF1" stroke-width="1.2" opacity=".5"/>
+        <rect x="51.5" y="1.5" width="9" height="5" rx="1"/>
+      </g></g>
+    <rect x="28" y="70" width="70" height="70" rx="22" fill="#2DBE9A"/>
+    <text x="63" y="115" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">LS</text>
+    <text x="28" y="188" font-size="34" font-weight="800" fill="#E8ECF1">lookupsafe</text>
+    <text x="28" y="214" font-size="14" fill="#8B96A3">Decisiones de consumo informadas</text>
+    <g transform="translate(46,437)"><rect width="18" height="18" rx="3" fill="#4285F4"/><rect width="8" height="8" fill="#EA4335"/><rect x="10" width="8" height="8" fill="#FBBC05"/><rect y="10" width="8" height="8" fill="#34A853"/></g>
+    <g><rect x="22" y="420" width="346" height="50" rx="14" fill="#151C26" stroke="#2A3440" stroke-width="1"/><text x="195.0" y="450.0" text-anchor="middle" font-size="14.5" font-weight="600" fill="#E8ECF1">Continuar con Google</text></g>
+    <g><rect x="22" y="478" width="346" height="50" rx="14" fill="#111" stroke="none" stroke-width="1"/><text x="195.0" y="508.0" text-anchor="middle" font-size="14.5" font-weight="600" fill="#fff">Continuar con Apple</text></g>
+    <line x1="46" y1="558" x2="170" y2="558" stroke="#2A3440"/><text x="195" y="562" text-anchor="middle" font-size="12" fill="#8B96A3">o</text><line x1="220" y1="558" x2="344" y2="558" stroke="#2A3440"/>
+    <g><rect x="22" y="578" width="346" height="50" rx="14" fill="#151C26" stroke="#2A3440"/><text x="38" y="608" font-size="14" fill="#8B96A3">tucorreo@email.com</text></g>
+    <g><rect x="22" y="636" width="346" height="50" rx="14" fill="#151C26" stroke="#2A3440"/><text x="38" y="666" font-size="14" fill="#8B96A3">Contraseña</text></g>
+    <g><rect x="22" y="694" width="346" height="50" rx="14" fill="#2DBE9A" stroke="none" stroke-width="1"/><text x="195.0" y="724.0" text-anchor="middle" font-size="14.5" font-weight="600" fill="#fff">Entrar con correo</text></g>
+    <g><rect x="22" y="754" width="346" height="32" rx="14" fill="none" stroke="none" stroke-width="1"/><text x="195.0" y="775.0" text-anchor="middle" font-size="13" font-weight="600" fill="#2DBE9A">Entrar sin cuenta · Escaneo rápido</text></g>
+    <text x="195.0" y="808" text-anchor="middle" font-size="10.5" fill="#8B96A3">Al continuar aceptas la Política de Privacidad y Términos.</text>
+    <text x="195.0" y="822" text-anchor="middle" font-size="10.5" fill="#8B96A3">La app informa; no sustituye consejo médico.</text>
+    </svg>

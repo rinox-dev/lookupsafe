@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844"><style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;}</style>
+    <rect width="390" height="844" fill="#F5F7FA"/>
+    <g fill="#1A1F24">
+      <text x="26" y="30" font-size="13" font-weight="600">9:41</text>
+      <g transform="translate(324,22)">
+        <rect y="5" width="3" height="5" rx="1"/>
+        <rect x="4.5" y="2.5" width="3" height="7.5" rx="1"/>
+        <rect x="9" width="3" height="10" rx="1"/>
+        <rect x="13.5" y="-2" width="3" height="12" rx="1" opacity=".35"/>
+        <path d="M23 7.5a5 5 0 0 1 6 0l-3 3z"/>
+        <rect x="50" width="14" height="8" rx="2" fill="none" stroke="#1A1F24" stroke-width="1.2" opacity=".5"/>
+        <rect x="51.5" y="1.5" width="9" height="5" rx="1"/>
+      </g></g>
+    <g><rect x="22" y="52" width="36" height="36" rx="10" fill="#FFFFFF" stroke="#E3E7EC" stroke-width="1"/>
+      <path d="M44 64l-5 6 5 6" stroke="#1A1F24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="195.0" y="75" text-anchor="middle" font-size="16" font-weight="800" fill="#1A1F24">Análisis</text>
+    <g><rect x="332" y="52" width="36" height="36" rx="10" fill="#FFFFFF" stroke="#E3E7EC" stroke-width="1"/><text x="350" y="76" text-anchor="middle" font-size="15">🔖</text></g>
+
+    <rect x="22" y="102" width="346" height="64" rx="16" fill="#FFFFFF" stroke="#E3E7EC" stroke-width="1"/>
+    <rect x="34" y="110" width="48" height="48" rx="12" fill="#E8EEF3"/>
+    <text x="58" y="142" text-anchor="middle" font-size="22">🍪</text>
+    <text x="94" y="132" font-size="14" font-weight="700" fill="#1A1F24">Galletas Choco Crunch</text>
+    <text x="94" y="149" font-size="11.5" fill="#6B7480">12 ingredientes detectados</text>
+
+    
+      <rect x="22" y="192" width="112" height="60" rx="12" fill="#FCE9E9"/>
+      <text x="78" y="220" text-anchor="middle" font-size="19" font-weight="800" fill="#A32B2B">2</text>
+      <text x="78" y="236" text-anchor="middle" font-size="9.5" font-weight="600" fill="#A32B2B">Posible riesgo</text>
+      <rect x="139" y="192" width="112" height="60" rx="12" fill="#FEF6E0"/>
+      <text x="195" y="220" text-anchor="middle" font-size="19" font-weight="800" fill="#8A6100">2</text>
+      <text x="195" y="236" text-anchor="middle" font-size="9.5" font-weight="600" fill="#8A6100">Evid. limitada</text>
+      <rect x="256" y="192" width="112" height="60" rx="12" fill="#E6F4EF"/>
+      <text x="312" y="220" text-anchor="middle" font-size="19" font-weight="800" fill="#146A55">8</text>
+      <text x="312" y="236" text-anchor="middle" font-size="9.5" font-weight="600" fill="#146A55">Sin evidencia</text>
+    <g><rect x="22" y="272" width="50" height="28" rx="14" fill="#1A1F24" stroke="#E3E7EC"/>
+          <text x="47.0" y="290" text-anchor="middle" font-size="11.5" font-weight="700" fill="#fff">Todos</text></g><g><rect x="100" y="272" width="90" height="28" rx="14" fill="#FFFFFF" stroke="#E3E7EC"/>
+          <text x="145.0" y="290" text-anchor="middle" font-size="11.5" font-weight="700" fill="#6B7480">Posible riesgo</text></g><g><rect x="178" y="272" width="90" height="28" rx="14" fill="#FFFFFF" stroke="#E3E7EC"/>
+          <text x="223.0" y="290" text-anchor="middle" font-size="11.5" font-weight="700" fill="#6B7480">Evid. limitada</text></g><g><rect x="281" y="272" width="90" height="28" rx="14" fill="#FFFFFF" stroke="#E3E7EC"/>
+          <text x="326.0" y="290" text-anchor="middle" font-size="11.5" font-weight="700" fill="#6B7480">Sin evidencia</text></g>
+    <g><rect x="22" y="340" width="346" height="44" rx="12" fill="#FFFFFF" stroke="#E3E7EC" stroke-width="1"/>
+          <text x="36" y="362" font-size="13" font-weight="700" fill="#1A1F24">Harina de trigo</text>
+          <text x="36" y="376" font-size="10.5" fill="#6B7480">Base</text>
+          <g>
+      <rect x="260" y="352" width="99.89999999999999" height="20" rx="6" fill="#E6F4EF"/>
+      <text x="309.95" y="366" text-anchor="middle" font-size="11" font-weight="700" fill="#146A55">Sin evidencia</text>
+    </g>
+        </g><g><rect x="22" y="392" width="346" height="44" rx="12" fill="#FFFFFF" stroke="#E3E7EC" stroke-width="1"/>
+          <text x="36" y="414" font-size="13" font-weight="700" fill="#1A1F24">Azúcar</text>
+          <text x="36" y="428" font-size="10.5" fill="#6B7480">Endulzante</text>
+          <g>
+      <rect x="260" y="404" width="106.2" height="20" rx="6" fill="#FEF6E0"/>
+      <text x="313.1" y="418" text-anchor="middle" font-size="11" font-weight="700" fill="#8A6100">Evid. limitada</text>
+    </g>
+        </g><g><rect x="22" y="444" width="346" height="44" rx="12" fill="#FFFFFF" stroke="#E3E7EC" stroke-width="1"/>
+          <text x="36" y="466" font-size="13" font-weight="700" fill="#1A1F24">Aceite de palma</text>
+          <text x="36" y="480" font-size="10.5" fill="#6B7480">Grasa</text>
+          <g>
+      <rect x="260" y="456" width="106.2" height="20" rx="6" fill="#FEF6E0"/>
+      <text x="313.1" y="470" text-anchor="middle" font-size="11" font-weight="700" fill="#8A6100">Evid. limitada</text>
+    </g>
+        </g><g><rect x="22" y="496" width="346" height="44" rx="12" fill="#FFFFFF" stroke="#E3E7EC" stroke-width="1"/>
+          <text x="36" y="518" font-size="13" font-weight="700" fill="#1A1F24">TBHQ (E319)</text>
+          <text x="36" y="532" font-size="10.5" fill="#6B7480">Antioxidante</text>
+          <g>
+      <rect x="260" y="508" width="106.2" height="20" rx="6" fill="#FCE9E9"/>
+      <text x="313.1" y="522" text-anchor="middle" font-size="11" font-weight="700" fill="#A32B2B">Posible riesgo</text>
+    </g>
+        </g><g><rect x="22" y="548" width="346" height="44" rx="12" fill="#FFFFFF" stroke="#E3E7EC" stroke-width="1"/>
+          <text x="36" y="570" font-size="13" font-weight="700" fill="#1A1F24">Colorante caramelo IV</text>
+          <text x="36" y="584" font-size="10.5" fill="#6B7480">Colorante</text>
+          <g>
+      <rect x="260" y="560" width="106.2" height="20" rx="6" fill="#FCE9E9"/>
+      <text x="313.1" y="574" text-anchor="middle" font-size="11" font-weight="700" fill="#A32B2B">Posible riesgo</text>
+    </g>
+        </g><g><rect x="22" y="600" width="346" height="44" rx="12" fill="#FFFFFF" stroke="#E3E7EC" stroke-width="1"/>
+          <text x="36" y="622" font-size="13" font-weight="700" fill="#1A1F24">Lecitina de soya</text>
+          <text x="36" y="636" font-size="10.5" fill="#6B7480">Emulsionante</text>
+          <g>
+      <rect x="260" y="612" width="99.89999999999999" height="20" rx="6" fill="#E6F4EF"/>
+      <text x="309.95" y="626" text-anchor="middle" font-size="11" font-weight="700" fill="#146A55">Sin evidencia</text>
+    </g>
+        </g>
+    <g>
+      <rect x="22" y="776" width="346" height="50" rx="14" fill="#1F8A70" stroke="none" stroke-width="1"/>
+      <text x="195.0" y="806.0" text-anchor="middle" font-size="14.5" font-weight="600" fill="#fff">Ver resumen y recomendación</text>
+    </g>
+    </svg>
