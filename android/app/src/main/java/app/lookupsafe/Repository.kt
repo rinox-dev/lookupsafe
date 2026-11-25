@@ -76,6 +76,7 @@ class Repository(context: Context) {
     suspend fun saveProfile(value: Profile): Profile = json.decodeFromString(api("profile","PUT",json.encodeToString(value)))
     suspend fun scans(offset: Int = 0): ScanPage = json.decodeFromString(api("scans?limit=30&offset=$offset"))
     suspend fun analyze(name: String, label: String): Scan = json.decodeFromString(api("scans","POST",buildJsonObject { put("productName",name.trim()); put("labelText",label.trim()) }.toString()))
+    suspend fun evidence(ingredient: String): Evidence = json.decodeFromString(api("evidence","POST",buildJsonObject { put("ingredient",ingredient.take(100)) }.toString()))
     suspend fun favorite(scan: Scan): Scan = json.decodeFromString(api("scans/${scan.id}","PATCH",buildJsonObject { put("favorite",!scan.favorite) }.toString()))
     suspend fun delete(scan: Scan) { api("scans/${scan.id}","DELETE") }
     suspend fun clearData() { api("data","DELETE") }

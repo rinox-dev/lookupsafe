@@ -25,6 +25,8 @@ import kotlinx.serialization.SerialName
     val analysis: Analysis, val favorite: Boolean, val createdAt: String
 )
 @Serializable data class ScanPage(val items: List<Scan>, val nextOffset: Int? = null)
+@Serializable data class Study(val id: String, val title: String, val year: String = "", val journal: String = "", val authors: List<String> = emptyList(), val abstract: String = "", val url: String)
+@Serializable data class Evidence(val ingredient: String, val count: Int, val studies: List<Study>, val searchUrl: String)
 val allergenOptions = linkedMapOf("milk" to "Leche", "egg" to "Huevo", "peanut" to "Maní", "tree_nut" to "Frutos de cáscara", "soy" to "Soya", "wheat" to "Trigo", "fish" to "Pescado", "shellfish" to "Crustáceos", "sesame" to "Sésamo")
 val concernGroups = linkedMapOf(
     "Alérgenos alimentarios" to allergenOptions,

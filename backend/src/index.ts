@@ -5,6 +5,7 @@ import { cors } from 'hono/cors';
 import { HTTPException } from 'hono/http-exception';
 import { z } from 'zod';
 import { analyze, concernIds } from './analysis';
+import { findStudies } from './evidence';
 
 type Env = { Bindings:{DB:D1Database;SUPABASE_URL:string;SUPABASE_PUBLISHABLE_KEY:string;WEB_ORIGINS?:string}; Variables:{userId:string} };
 type Scan = {id:string;user_id:string;product_name:string;label_text:string;analysis_json:string;favorite:number;created_at:string};
@@ -84,6 +85,11 @@ app.delete('/v1/scans/:id',async c=>{
 app.delete('/v1/data',async c=>{
   await c.env.DB.batch([c.env.DB.prepare('DELETE FROM scans WHERE user_id = ?').bind(c.get('userId')),c.env.DB.prepare('DELETE FROM profiles WHERE user_id = ?').bind(c.get('userId'))]);
   return c.body(null,204);
+});
+app.post('/v1/evidence',async c=>{
+  const input=z.object({ingredient:z.string().trim().min(2).max(100)}).strict().parse(await body(c));
+  try { return c.json(await findStudies(input.ingredient)); }
+  catch { return c.json({error:'No pudimos consultar PubMed. Intenta de nuevo más tarde.'},502); }
 });
 app.notFound(c=>c.json({error:'Not found'},404));
 app.onError((err,c)=>{

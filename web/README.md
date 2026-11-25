@@ -52,7 +52,8 @@ The static output is `web/dist/`, and `wrangler.jsonc` deploys it as a separate 
 ## Behavior and limits
 
 - JPG/PNG/WebP image import up to 10 MB, camera capture on supported mobile browsers, and manual text entry.
-- Tesseract.js recognizes Spanish/English text locally. Its worker and language models download on first use, so first recognition needs internet access. No image is sent to the API.
+- Tesseract.js recognizes Spanish/English text locally. When confidence is below 72%, the browser retries with an enlarged grayscale/contrast-enhanced copy. The displayed OCR confidence is a recognition signal, not a guarantee; review every ingredient before submitting. Its worker and language models download on first use, so first recognition needs internet access. No image is sent to the API.
+- Signed-in scans can search PubMed for biomedical publications about each recognized text segment and show available abstracts. Open each citation to review full abstracts and methods: a search hit is not evidence by itself that an ingredient is harmful or safe. Example mode opens the corresponding PubMed search directly.
 - The API and example mode use `shared/analysis.ts`. It finds text mentions, including negations and traces, in a limited catalog. It does not certify product safety or generate medical scores.
 - History is paginated; search and favorites filter the currently loaded items. Use “Cargar más consultas” to search older entries.
 - Profile changes affect future analyses. Deleting profile/history retains the Supabase authentication account.

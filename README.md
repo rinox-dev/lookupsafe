@@ -85,12 +85,15 @@ Set Android's `API_BASE_URL` to the resulting HTTPS Worker URL and rebuild. No C
 | GET / PUT | `/v1/profile` | Read/save `{displayName, allergens}` |
 | GET | `/v1/scans?limit=30&offset=0` | Newest first, `{items,nextOffset}` |
 | POST | `/v1/scans` | Analyze/save `{productName,labelText}` |
+| POST | `/v1/evidence` | Search PubMed for biomedical publications about `{ingredient}`; returns up to five citations |
 | GET | `/v1/scans/:id` | Read owned scan |
 | PATCH | `/v1/scans/:id` | Set `{favorite: boolean}` |
 | DELETE | `/v1/scans/:id` | Delete owned scan |
 | DELETE | `/v1/data` | Delete own scans/profile; keep Supabase account |
 
-Allergen preference IDs: `milk`, `egg`, `peanut`, `tree_nut`, `soy`, `wheat`, `fish`, `shellfish`, `sesame`. Preferences are snapshotted into each analysis; updating your profile affects future analyses. Deleting app data does not delete the Supabase authentication account. Account lifecycle management remains in Supabase.
+Preference IDs include food allergens and common fragrance, preservative, deodorant, and antiperspirant ingredients. Preferences are snapshotted into each analysis; updating your profile affects future analyses. Deleting app data does not delete the Supabase authentication account. Account lifecycle management remains in Supabase.
+
+Ingredient evidence lookups use NCBI PubMed E-utilities (ESearch + ESummary), querying exact ingredient phrases alongside health-related terms. The app shows linked citations and search counts, not a harm/safety verdict. Search results can include different study designs, doses, and exposure routes; read the abstract and discuss health concerns with a qualified professional. This feature requires a signed-in account in the app; example mode links directly to PubMed. PubMed is subject to NCBI rate limits.
 
 ## Verification
 
@@ -113,5 +116,7 @@ API tests execute the real SQL migration in SQLite with mocked Supabase response
 - [Supabase Auth endpoints](https://supabase.github.io/auth/)
 - [Android ML Kit text recognition](https://developers.google.com/ml-kit/vision/text-recognition/v2/android)
 - [FDA cosmetics overview](https://www.fda.gov/cosmetics/cosmetics-science-research/it-here-cosmetics)
+- [NCBI E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK25501/)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/)
 
 Original SVG mockups and their Python generators remain alongside the app.

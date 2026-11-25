@@ -18,3 +18,4 @@
 @media(max-width:760px){.sidebar{visibility:hidden}.sidebar.open{visibility:visible}}
 .concern-group{margin-top:19px}.concern-group h3{font-size:.875rem;color:var(--muted);margin-bottom:10px}.concern-group .allergen-options{gap:8px}
 .concern-group{margin-top:19px}.concern-group h3{font-size:.875rem;color:var(--muted);margin-bottom:10px}.concern-group .allergen-options{gap:8px}
+.evidence-lookup{margin-top:12px}.evidence-lookup>small,.study-results small{display:block;font-size:.75rem;color:var(--muted);line-height:1.5;margin-top:5px}.study-results{border-left:2px solid var(--line);padding:10px 0 0 13px;margin:10px 0 0}.study-results>p{font-size:.8125rem;color:var(--muted);line-height:1.55;margin:0 0 10px}.study-results article{padding:10px 0;border-top:1px solid var(--line)}.study-results article>a{font-size:.875rem;line-height:1.5}.study-results> a:last-child{display:block;font-size:.8125rem;margin-top:9px}

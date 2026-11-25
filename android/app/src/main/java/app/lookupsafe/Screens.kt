@@ -31,6 +31,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import kotlinx.coroutines.launch
 
 @Composable fun LookupSafeApp(vm: AppViewModel) {
     val s by vm.state.collectAsStateWithLifecycle()
@@ -175,6 +176,10 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
     val uriHandler=LocalUriHandler.current
     var confirmDelete by remember { mutableStateOf(false) }
     var ingredient by remember { mutableStateOf<Ingredient?>(null) }
+    var evidence by remember(ingredient) { mutableStateOf<Evidence?>(null) }
+    var evidenceLoading by remember(ingredient) { mutableStateOf(false) }
+    var evidenceError by remember(ingredient) { mutableStateOf("") }
+    val scope=rememberCoroutineScope()
     Page {
         Text(scan.productName,style=MaterialTheme.typography.headlineMedium,fontWeight=FontWeight.Bold)
         Text("Consulta del ${scan.createdAt.take(10)}",style=MaterialTheme.typography.bodySmall)
@@ -206,7 +211,20 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
         OutlinedButton(onClick={confirmDelete=true},enabled=!busy) {Icon(Icons.Outlined.DeleteOutline,null);Text("Eliminar consulta")}
     }
     if(confirmDelete) AlertDialog(onDismissRequest={confirmDelete=false},title={Text("¿Eliminar esta consulta?")},text={Text("Se eliminará de tu historial de forma permanente.")},confirmButton={TextButton(onClick={confirmDelete=false;vm.delete(scan)}) {Text("Eliminar")}},dismissButton={TextButton(onClick={confirmDelete=false}) {Text("Cancelar")}})
-    ingredient?.let { item-> AlertDialog(onDismissRequest={ingredient=null},title={Text(item.name)},text={Text("Este ingrediente se extrajo del texto que revisaste. No hay una evaluación específica de su seguridad en este catálogo. Consulta la etiqueta completa y las fuentes antes de decidir.")},confirmButton={TextButton(onClick={ingredient=null}) {Text("Entendido")}}) }
+    ingredient?.let { item-> AlertDialog(onDismissRequest={ingredient=null},title={Text(item.name)},text={Column(Modifier.heightIn(max=420.dp).verticalScroll(rememberScrollState()),verticalArrangement=Arrangement.spacedBy(10.dp)) {
+        Text("El texto se extrajo de la etiqueta; verifica su lectura. Buscaré estudios biomédicos relacionados en PubMed. Las publicaciones por sí solas no prueban que un ingrediente cause daño.")
+        OutlinedButton(onClick={scope.launch { evidenceLoading=true; evidenceError=""; try { evidence=vm.evidence(item.name) } catch(e:Exception) { evidenceError=e.message ?: "No se pudo consultar PubMed." } finally { evidenceLoading=false } }},enabled=!evidenceLoading) { Text(if(evidenceLoading) "Buscando estudios…" else "Buscar estudios en PubMed") }
+        if(evidenceError.isNotBlank()) Text(evidenceError,color=MaterialTheme.colorScheme.error)
+        evidence?.let { data->
+            Text("${data.count} publicaciones relacionadas; se muestran hasta ${data.studies.size}.",style=MaterialTheme.typography.bodySmall)
+            data.studies.forEach { study-> Column {
+                TextButton(onClick={runCatching { uriHandler.openUri(study.url) }.onFailure { vm.error("No se pudo abrir el estudio.") }}) { Text("${study.year.takeIf { it.isNotBlank() }?.plus(" · ").orEmpty()}${study.title}",maxLines=3,overflow=TextOverflow.Ellipsis) }
+                if(study.abstract.isNotBlank()) Text(study.abstract,maxLines=5,overflow=TextOverflow.Ellipsis,style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
+            } }
+            if(data.studies.isEmpty()) Text("No se encontraron publicaciones con esta búsqueda. Eso no demuestra que el ingrediente sea seguro.",style=MaterialTheme.typography.bodySmall)
+            TextButton(onClick={runCatching { uriHandler.openUri(data.searchUrl) }.onFailure { vm.error("No se pudo abrir PubMed.") }}) { Text("Abrir PubMed") }
+        }
+    }},confirmButton={TextButton(onClick={ingredient=null}) {Text("Cerrar")}}) }
 }
 @Composable private fun ProfileScreen(s:AppState,vm:AppViewModel) {
     var name by remember(s.profile) { mutableStateOf(s.profile.displayName) }

@@ -73,6 +73,7 @@ class AppViewModel(application: Application): AndroidViewModel(application) {
             mutable.update { it.copy(labelText=text.take(12000),message=if(text.isBlank()) "No se detectó texto. Prueba otra foto o escribe la etiqueta." else "Revisa y corrige el texto antes de analizar.") }
         } finally { recognizer.close() }
     }
+    suspend fun evidence(ingredient: String): Evidence = repo.evidence(ingredient)
     fun analyze() = run {
         val s=mutable.value
         require(s.productName.isNotBlank() && s.labelText.trim().length>=2) { "Escribe el nombre y los ingredientes." }
